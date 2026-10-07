@@ -1,0 +1,15 @@
+{
+  "name": "ui-ux-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shlok Shah UI/UX portfolio (static site)",
+  "scripts": {
+    "start": "serve . -l tcp://0.0.0.0:${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

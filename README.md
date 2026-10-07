@@ -30,3 +30,7 @@ npx serve .
 2. Add `.stage[data-style="<id>"]` and `[data-style="<id>"] .spec…` rules in `styles.css`.
 
 Deploys as-is to GitHub Pages, Vercel or Netlify.
+
+## Deploy on Railway
+
+Connect this repo in Railway and deploy `main`. Railway runs `npm install` then `npm start`, which serves the folder with `serve` on Railway's `$PORT`. No other settings are needed; add a domain under the service's **Settings → Networking**.
